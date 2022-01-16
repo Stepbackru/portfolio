@@ -32,6 +32,11 @@ body {
 	height: 50px;
 	display: flex;
 	align-items: center;
+	transition: .3s;
+}
+
+.logo:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
 }
 
 .logo__link {
