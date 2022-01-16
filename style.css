@@ -1,3 +1,77 @@
-@import url(./assets/clear.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@700&display=swap');
+@import url('./assets/clear.css');
+@import url('./assets/constants.css');
+
+body {
+	background: #000;
+}
+.container {
+	margin: 0 auto;
+	padding: 0 20px;
+	max-width: 1440px;
+	font-family: Inter, sans-serif;
+	font-weight: 400;
+}
+
+.header .container {
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header__content {
+	display: flex;
+	gap: 34px;
+	color: #fff;
+	font-size: 20px;
+}
+
+.logo {
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.logo__link {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.logo__icon {
+	width: 100%;
+  height: 100%;
+}
+
+.menu__list {
+	display: flex;
+	gap: 30px;
+}
+
+.menu__link:hover,
+.menu__link:active,
+.menu__link:focus,
+.lang__item:hover,
+.lang__item:active,
+.lang__item:focus {
+	color: var(--color-gold);
+	transition: .3s;
+}
+
+.lang {
+	display: flex;
+	gap: 8px;
+}
+
+.lang__ru,
+.lang__en {
+	padding: 0;
+	color: #fff;
+	font-family: Inter, sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+}
 
 
