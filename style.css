@@ -128,7 +128,8 @@ body {
 }
 
 .skills,
-.portfolio {
+.portfolio,
+.video {
 	padding: 100px 20px 0;
 	display: flex;
 	flex-direction: column;
@@ -136,7 +137,8 @@ body {
 }
 
 .skills__tittle_wrapper,
-.portfolio__tittle_wrapper {
+.portfolio__tittle_wrapper,
+.video__tittle_wrapper {
 	width: 50%;
 	display: flex;
 	justify-content: center;
@@ -145,7 +147,8 @@ body {
 }
 
 .skills__title,
-.portfolio__title {
+.portfolio__title,
+.video__title {
 	padding: 0 20px;
 	font-family: Merriweather, serif;
 	font-size: 40px;
@@ -241,4 +244,23 @@ body {
 
 .portfolio__item {
 	max-height: 560px;
+}
+
+.video__content {
+	padding-top: 60px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.video__play {
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	background-image: url('./assets/icons/play.svg');
+}
+
+.video__play:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
 }
