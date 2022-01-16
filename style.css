@@ -129,7 +129,8 @@ body {
 
 .skills,
 .portfolio,
-.video {
+.video,
+.price {
 	padding: 100px 20px 0;
 	display: flex;
 	flex-direction: column;
@@ -138,7 +139,8 @@ body {
 
 .skills__tittle_wrapper,
 .portfolio__tittle_wrapper,
-.video__tittle_wrapper {
+.video__tittle_wrapper,
+.price__tittle_wrapper {
 	width: 50%;
 	display: flex;
 	justify-content: center;
@@ -148,7 +150,8 @@ body {
 
 .skills__title,
 .portfolio__title,
-.video__title {
+.video__title,
+.price__title {
 	padding: 0 20px;
 	font-family: Merriweather, serif;
 	font-size: 40px;
@@ -263,4 +266,54 @@ body {
 
 .video__play:hover {
   filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
+}
+
+.price__cards {
+	padding: 60px 0 0;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 25px;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	padding: 10px 0 40px;
+	max-width: 450px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 3px solid var(--color-gold);
+}
+
+.card__title {
+	padding: 40px 0 32px;
+	font-family: Merriweather, serif;
+	font-size: 28px;
+	color: var(--color-white);
+}
+
+.card__price {
+	font-family: Merriweather, serif;
+	font-size: 24px;
+	line-height: 48px;
+	color: var(--color-gold);
+}
+
+.priority__list {
+	padding: 19px 0 39px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.priority__description {
+	font-size: 18px;
+	line-height: 36px;
+}
+
+.card .btn {
+	line-height: 50px;
+	letter-spacing: .6px;
 }
