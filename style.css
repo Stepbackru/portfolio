@@ -127,14 +127,16 @@ body {
 	line-height: 40px;
 }
 
-.skills {
+.skills,
+.portfolio {
 	padding: 100px 20px 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.skills__tittle_wrapper {
+.skills__tittle_wrapper,
+.portfolio__tittle_wrapper {
 	width: 50%;
 	display: flex;
 	justify-content: center;
@@ -142,7 +144,8 @@ body {
 	background-image: linear-gradient(to top, #000 39px, #bdae82 39px, #bdae82 41px, #000 41px);
 }
 
-.skills__title {
+.skills__title,
+.portfolio__title {
 	padding: 0 20px;
 	font-family: Merriweather, serif;
 	font-size: 40px;
@@ -205,4 +208,37 @@ body {
 	font-size: 18px;
 	line-height: 36px;
 	text-align: center;
+}
+
+.portfolio__filter {
+	padding-top: 61px;
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+}
+
+.portfolio__filter .btn {
+	color: var(--color-gold);
+	font-size: 20px;
+	background: var(--color-black);
+	border: 2px solid var(--color-gold);
+}
+
+.portfolio__filter .btn:hover,
+.portfolio__filter .btn_active {
+	color: var(--color-black);
+	font-size: 20px;
+	background: var(--color-gold);
+}
+
+.portfolio__list {
+	padding-top: 60px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 25px;
+}
+
+.portfolio__item {
+	max-height: 560px;
 }
