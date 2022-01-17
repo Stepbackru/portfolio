@@ -75,13 +75,8 @@ body {
 	gap: 30px;
 }
 
-.menu__link:hover,
-.menu__link:active,
-.menu__link:focus,
-.lang__item:hover,
-.lang__item:active,
-.lang__item:focus {
-	color: var(--color-gold);
+.menu__link,
+.lang__item {
 	transition: .3s;
 }
 
@@ -97,6 +92,12 @@ body {
 	font-family: Inter, sans-serif;
 	font-size: 20px;
 	font-weight: 700;
+}
+
+.menu__link:hover,
+.lang__item:hover,
+.lang__item_active {
+	color: var(--color-gold);
 }
 
 .hero {
