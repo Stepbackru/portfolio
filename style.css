@@ -323,7 +323,7 @@ body {
 }
 
 .contact {
-	padding-right: 20px;
+	padding: 60px 20px 195px 0;
 	width: 100%;
 	display: flex;
 	justify-content: flex-end;
@@ -333,6 +333,53 @@ body {
 
 .contact__form {
 	max-width: 450px;
-	display: flex;
-	flex-direction: column;
+}
+
+.contact__title {
+	padding-bottom: 40px;
+	font-family: Merriweather, serif;
+	font-size: 40px;
+	line-height: 80px;
+	color: var(--color-gold);
+}
+
+.contact__input {
+	margin-bottom: 20px;
+	padding: 5px 20px;
+	width: 100%;
+	font-size: 20px;
+	line-height: 36px;
+	color: var(--color-gold);
+	border: 2px solid var(--color-gold);
+	background-color: rgba(0, 0, 0, .5);
+	transition: .3s;
+}
+
+.contact__input:required:invalid:focus {
+  border: 2px solid #ff0000;
+}
+
+.contact__input:required:valid:focus {
+  border: 2px solid #00ff00;
+}
+
+.contact__input::placeholder,
+.contact__textarea::placeholder {
+  font-family: inherit;
+  font-size: 20px;
+  color: var(--color-gold);
+}
+
+.contact__textarea {
+	margin-bottom: 26px;
+	padding: 0 18px;
+	width: 100%;
+	font-family: Inter, sans-serif;
+	font-size: 20px;
+	line-height: 48px;
+	color: var(--color-gold);
+	border: 2px solid var(--color-gold);
+	outline: none;
+	background-color: rgba(0, 0, 0, .5);
+	resize: none;
 }
