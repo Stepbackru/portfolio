@@ -383,3 +383,57 @@ body {
 	background-color: rgba(0, 0, 0, .5);
 	resize: none;
 }
+
+.footer .container {
+	padding: 59px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.github {
+	display: flex;
+	gap: 20px;
+}
+
+.github__item,
+.rsschool__link {
+	font-size: 20px;
+}
+
+.rsschool {
+	padding-left: 19px;
+}
+
+.socials {
+	display: flex;
+	gap: 20px;
+}
+
+.socials__link {
+	width: 32px;
+	height: 32px;
+	display: block;
+	transition: .3s;
+	background-repeat: no-repeat;
+}
+
+.socials__link:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
+}
+
+.socials__link_inst {
+	background-image: url('./assets/icons/inst.svg');
+}
+
+.socials__link_fb {
+	background-image: url('./assets/icons/fb.svg');
+}
+
+.socials__link_tw {
+	background-image: url('./assets/icons/tw.svg');
+}
+
+.socials__link_pin {
+	background-image: url('./assets/icons/pinterest.svg');
+}
