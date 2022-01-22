@@ -74,4 +74,29 @@
     padding: 33px 0 59px;
     max-width: 390px;
   }
+
+  .skills__tittle_wrapper,
+  .portfolio__tittle_wrapper,
+  .video__tittle_wrapper,
+  .price__tittle_wrapper {
+    background-image: linear-gradient(to top, #000 19px, #bdae82 18px, #bdae82 21px, #000 21px);
+  }
+
+  .skills__list {
+    padding-top: 66px;
+    justify-content: space-evenly;
+  }
+
+  .skills__item {
+    padding: 0 10px 40px 7px;
+    max-width: 300px;
+  }
+
+  .skills__caption {
+    padding: 37px 0 30px;
+  }
+
+  .skills__description {
+    padding-bottom: 34px;
+  }
 }

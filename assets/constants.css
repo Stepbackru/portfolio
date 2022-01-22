@@ -18,6 +18,10 @@
 @media (max-width: 768px) {
 	:root {
 		--fz-h1: 32px;
+		--fz-title: 32px;
 		--lh40: 24px;
+		--lh-title: 40px;
+		--lh-desc: 22px;
+
 	}
 }
