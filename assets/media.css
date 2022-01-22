@@ -99,4 +99,13 @@
   .skills__description {
     padding-bottom: 34px;
   }
+
+  .portfolio {
+    padding: 105px 20px 0;
+  }
+
+  .portfolio__filter {
+    padding-top: 69px;
+    max-width: 445px;
+  }
 }
