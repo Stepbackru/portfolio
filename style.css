@@ -257,6 +257,9 @@ body {
 
 .video__content {
 	padding-top: 60px;
+}
+
+.video__picture {
 	position: relative;
 	display: flex;
 	justify-content: center;
