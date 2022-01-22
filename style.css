@@ -408,7 +408,7 @@ body {
 	padding: 5px 20px;
 	width: 100%;
 	font-size: var(--fz-general);
-	line-height: var(--lh-desc);
+	line-height: var(--lh-input);
 	color: var(--color-gold);
 	border: 2px solid var(--color-gold);
 	background-color: rgba(0, 0, 0, .5);
