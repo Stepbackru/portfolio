@@ -18,7 +18,7 @@ body {
 	width: 220px;
 	height: 55px;
 	background: var(--color-gold);
-	font-size: 20px;
+	font-size: var(--fz-general);
 	color: var(--color-black);
 	transition: .3s;
 }
@@ -44,7 +44,7 @@ body {
 	display: flex;
 	gap: 34px;
 	color: #fff;
-	font-size: 20px;
+	font-size: var(--fz-general);
 }
 
 .logo {
@@ -90,7 +90,7 @@ body {
 	padding: 0;
 	color: #fff;
 	font-family: Inter, sans-serif;
-	font-size: 20px;
+	font-size: var(--fz-general);
 	font-weight: 700;
 }
 
@@ -116,7 +116,7 @@ body {
 .hero__title {
 	color: var(--color-white);
 	font-family: Merriweather, serif;
-	font-size: 60px;
+	font-size: var(--fz-h1);
 	font-weight: 700;
 }
 
@@ -124,8 +124,8 @@ body {
 	padding: 33px 0 26px;
 	max-width: 470px;
 	color: var(--color-white);
-	font-size: 20px;
-	line-height: 40px;
+	font-size: var(--fz-general);
+	line-height: var(--lh40);
 }
 
 .skills,
@@ -155,10 +155,10 @@ body {
 .price__title {
 	padding: 0 20px;
 	font-family: Merriweather, serif;
-	font-size: 40px;
+	font-size: var(--fz-title);
 	color: var(--color-gold);
 	background: var(--color-black);
-	line-height: 80px;
+	line-height: var(--lh-title);
 }
 
 .skills__list {
@@ -207,13 +207,13 @@ body {
 .skills__caption {
 	padding: 58px 0 29px;
 	font-weight: 700;
-	font-size: 20px;
+	font-size: var(--fz-general);
 }
 
 .skills__description {
 	max-width: 280px;
-	font-size: 18px;
-	line-height: 36px;
+	font-size: var(--fz-desc);
+	line-height: var(--lh-desc);
 	text-align: center;
 }
 
@@ -226,7 +226,7 @@ body {
 
 .portfolio__filter .btn {
 	color: var(--color-gold);
-	font-size: 20px;
+	font-size: var(--fz-general);
 	background: var(--color-black);
 	border: 2px solid var(--color-gold);
 }
@@ -234,7 +234,7 @@ body {
 .portfolio__filter .btn:hover,
 .portfolio__filter .btn_active {
 	color: var(--color-black);
-	font-size: 20px;
+	font-size: var(--fz-general);
 	background: var(--color-gold);
 }
 
@@ -295,14 +295,14 @@ body {
 .card__title {
 	padding: 40px 0 32px;
 	font-family: Merriweather, serif;
-	font-size: 28px;
+	font-size: var(--fz-card-title);
 	color: var(--color-white);
 }
 
 .card__price {
 	font-family: Merriweather, serif;
-	font-size: 24px;
-	line-height: 48px;
+	font-size: var(--fz-card-price);
+	line-height: var(--lh-card-price);
 	color: var(--color-gold);
 }
 
@@ -314,8 +314,8 @@ body {
 }
 
 .priority__description {
-	font-size: 18px;
-	line-height: 36px;
+	font-size: var(--fz-desc);
+	line-height: var(--lh-desc);
 }
 
 .card .btn {
@@ -339,8 +339,8 @@ body {
 .contact__title {
 	padding-bottom: 40px;
 	font-family: Merriweather, serif;
-	font-size: 40px;
-	line-height: 80px;
+	font-size: var(--fz-title);
+	line-height: var(--lh-title);
 	color: var(--color-gold);
 }
 
@@ -348,8 +348,8 @@ body {
 	margin-bottom: 20px;
 	padding: 5px 20px;
 	width: 100%;
-	font-size: 20px;
-	line-height: 36px;
+	font-size: var(--fz-general);
+	line-height: var(--lh-desc);
 	color: var(--color-gold);
 	border: 2px solid var(--color-gold);
 	background-color: rgba(0, 0, 0, .5);
@@ -367,7 +367,7 @@ body {
 .contact__input::placeholder,
 .contact__textarea::placeholder {
   font-family: inherit;
-  font-size: 20px;
+  font-size: var(--fz-general);
   color: var(--color-gold);
 }
 
@@ -376,8 +376,8 @@ body {
 	padding: 0 18px;
 	width: 100%;
 	font-family: Inter, sans-serif;
-	font-size: 20px;
-	line-height: 48px;
+	font-size: var(--fz-general);
+	line-height: var(--lh-textarea);
 	color: var(--color-gold);
 	border: 2px solid var(--color-gold);
 	outline: none;
@@ -399,7 +399,7 @@ body {
 
 .github__item,
 .rsschool__link {
-	font-size: 20px;
+	font-size: var(--fz-general);
 }
 
 .rsschool {
