@@ -108,4 +108,15 @@
     padding-top: 69px;
     max-width: 445px;
   }
+
+  .video__content {
+    padding-top: 70px;
+  }
+
+  .video__play {
+    padding: 0;
+    width: 65px;
+    height: 65px;
+    background-size: cover;
+  }
 }
