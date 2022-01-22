@@ -125,6 +125,10 @@ body {
 	transition: bottom .3s cubic-bezier(0.21, 0.83, 0.26, 0.87) ,transform .3s cubic-bezier(0.21, 0.83, 0.26, 0.87) .3s;
 }
 
+.burger__btn:hover .burger__line{
+	background: var(--color-gold);
+}
+
 .menu__list {
 	display: flex;
 	gap: 30px;
