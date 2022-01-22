@@ -154,4 +154,19 @@
   .contact__form .btn {
     margin-left: 114px;
   }
+
+  .footer {
+    padding-bottom: 18px;
+  }
+
+  .footer .container {
+    padding: 24px 0;
+    flex-direction: column;
+    justify-content: none;
+    gap: 16px;
+  }
+
+  .rsschool {
+    padding: 0 0 12px;
+  }
 }
