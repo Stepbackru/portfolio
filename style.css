@@ -74,6 +74,61 @@ body {
 	display: none;
 }
 
+.burger__btn {
+	padding: 0;
+	width: 50px;
+	height: 29px;
+	position: relative;
+	z-index: 10;
+}
+
+.burger__line {
+	width: 100%;
+	height: 3px;
+	display: block;
+	position: absolute;
+	left: 21px;
+	background: var(--color-white);
+}
+
+.burger__btn .burger__line:nth-child(1) {
+	top: 0;
+	transform: translateX(-50%) translateY(0);
+	transition: top .3s cubic-bezier(0.21, 0.83, 0.26, 0.87) .3s,transform .3s cubic-bezier(0.21, 0.83, 0.26, 0.87);
+}
+
+.burger__btn .burger__line:nth-child(2) {
+	top: 13px;
+	opacity: 1;
+	transform: translateX(-50%);
+}
+
+.burger__btn .burger__line:last-child {
+	top: 26px;
+	transform: translateX(-50%) translateY(0);
+	transition: top .3s cubic-bezier(0.21, 0.83, 0.26, 0.87) .3s,transform .3s cubic-bezier(0.21, 0.83, 0.26, 0.87);
+}
+
+.burger__btn_open .burger__line:nth-child(1) {
+	top: 50%;          
+	transform: translateX(-50%) translateY(0) rotate(45deg);
+	transition: top .3s cubic-bezier(0.21, 0.83, 0.26, 0.87), transform .3s cubic-bezier(0.21, 0.83, 0.26, 0.87) .3s;
+}
+
+.burger__btn_open .burger__line:nth-child(2) {
+	opacity: 0;
+}
+
+.burger__btn_open .burger__line:last-child {
+	top: 50%;
+	transform: translateX(-50%) translateY(0) rotate(-45deg);
+	transition: bottom .3s cubic-bezier(0.21, 0.83, 0.26, 0.87) ,transform .3s cubic-bezier(0.21, 0.83, 0.26, 0.87) .3s;
+}
+
+.menu_open {
+	transform: translateX(0);
+}
+
 .menu__list {
 	display: flex;
 	gap: 30px;
