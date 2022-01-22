@@ -119,4 +119,22 @@
     height: 65px;
     background-size: cover;
   }
+
+  .card {
+    width: 420px;
+  }
+
+  .price {
+    padding: 100px 20px 80px;
+  }
+
+  .price__cards {
+    padding: 71px 0 0;
+    gap: 50px;
+  }
+
+  .priority__list {
+    padding: 26px 0 46px;
+    gap: 14px;
+  }
 }
