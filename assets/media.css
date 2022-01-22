@@ -7,6 +7,11 @@
     max-width: 768px;
   }
 
+  .header {
+    background-position: -5px -30px;
+    background-size: auto 620px;
+  }
+
   .header .container {
     padding: 20px 60px;
     position: relative;
@@ -42,7 +47,7 @@
     transform: translateX(100%);
     transition: all .2s ease-out;
   }
-  
+
   .menu_open {
     transform: translateX(0);
   }
@@ -54,5 +59,19 @@
 
   .menu__link {
     font-size: 35px;
+  }
+
+  .hero {
+    padding: 90px 0 151px 60px;
+    background-position: -5px -120px;
+    background-size: auto 620px;
+  }
+  .hero__title {
+    font-weight: 400;
+  }
+
+  .hero__description {
+    padding: 33px 0 59px;
+    max-width: 390px;
   }
 }

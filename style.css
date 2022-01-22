@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@400;700&display=swap');
 @import url('./assets/clear.css');
 @import url('./assets/constants.css');
 
@@ -123,10 +123,6 @@ body {
 	top: 50%;
 	transform: translateX(-50%) translateY(0) rotate(-45deg);
 	transition: bottom .3s cubic-bezier(0.21, 0.83, 0.26, 0.87) ,transform .3s cubic-bezier(0.21, 0.83, 0.26, 0.87) .3s;
-}
-
-.menu_open {
-	transform: translateX(0);
 }
 
 .menu__list {

@@ -14,3 +14,10 @@
 	--lh-card-price: 48px;
 	--lh-textarea: 48px;
 }
+
+@media (max-width: 768px) {
+	:root {
+		--fz-h1: 32px;
+		--lh40: 24px;
+	}
+}
