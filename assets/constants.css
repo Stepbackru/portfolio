@@ -2,4 +2,15 @@
 	--color-gold: #bdae82;
 	--color-white: #ffffff;
 	--color-black: #000000;
+	--fz-h1: 60px;
+	--fz-general: 20px;
+	--fz-title: 40px;
+	--fz-desc: 18px;
+	--fz-card-title: 28px;
+	--fz-card-rpice: 24px;
+	--lh40: 40px;
+	--lh-title: 80px;
+	--lh-desc: 36px;
+	--lh-card-price: 48px;
+	--lh-textarea: 48px;
 }
