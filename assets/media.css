@@ -41,6 +41,7 @@
     display: flex;
     justify-content: center;
     position: absolute;
+    top: 0;
     right: 0;
     z-index: 9;
     background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) calc(100% - 620px), rgba(0,0,0,1) calc(100% - 620px), rgba(0,0,0,1) 100%);
