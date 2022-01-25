@@ -332,6 +332,10 @@ body {
   filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
 }
 
+.video__image {
+	width: 100%;
+}
+
 .price {
 	padding: 100px 20px 100px;
 }
