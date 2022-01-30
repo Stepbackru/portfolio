@@ -3,7 +3,8 @@ import translateArr from '../data/translate.js';
 class TranslatePage {
   constructor() {
     this.langBlock = document.querySelector('.lang');
-    
+    this.langBtns = [...this.langBlock.childNodes].filter((el) => el.dataset);
+
     this.languageToggle = this.languageToggle.bind(this);
   }
 
@@ -20,11 +21,17 @@ class TranslatePage {
 
       pageContent.forEach((el, ind) => 
         el.textContent = translateArr[dataLang][keysArr[ind]]);
+      this.activeLangBtnToggle(e);
     }
   }
 
   findKeyByValue(obj, value) {
     return Object.keys(obj).find(key => obj[key] === value);
+  }
+
+  activeLangBtnToggle(e) {
+    this.langBtns.forEach((el) => { el.classList.remove('lang__item_active') });
+    e.target.classList.add('lang__item_active');
   }
 
   subscribe() {
