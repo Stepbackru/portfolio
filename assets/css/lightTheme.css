@@ -1,0 +1,140 @@
+@import url('./constants.css');
+
+.body-lightTheme {
+  background: var(--color-white);
+  color: var(--color-black);
+}
+
+.btn-lightTheme {
+  background: var(--color-white);
+}
+
+.btn-lightTheme:hover {
+  color: var(--color-gold);
+}
+
+.header-lightTheme {
+  background-image: url('../images/lightTheme/bg.jpg');
+}
+
+.header__content-lightTheme {
+  color: var(--color-black);
+}
+
+.burger__line-lightTheme {
+  background: var(--color-black);
+}
+
+.lang__item-lightTheme {
+  color: var(--color-black);
+}
+
+.hero-lightTheme {
+  background-image: url('../images/lightTheme/bg.jpg')
+}
+
+.hero__title-lightTheme {
+  color: var(--color-black);
+}
+
+.hero__description-lightTheme {
+  color: var(--color-black);
+}
+
+.skills__tittle_wrapper-lightTheme,
+.portfolio__tittle_wrapper-lightTheme,
+.video__tittle_wrapper-lightTheme,
+.price__tittle_wrapper-lightTheme {
+	background-image: linear-gradient(to top, #fff 39px, #000 39px, #000 41px, #fff 41px);
+}
+
+.skills__title-lightTheme,
+.portfolio__title-lightTheme,
+.video__title-lightTheme,
+.price__title-lightTheme {
+	color: var(--color-black);
+	background: var(--color-white);
+}
+
+.filter__btn-lightTheme {
+	color: var(--color-black);
+}
+
+.filter__btn-lightTheme:hover {
+	color: var(--color-gold);
+}
+
+.filter__btn-lightTheme::before {
+  border-bottom: 51px solid var(--color-black);
+}
+
+.filter__btn-lightTheme::after {
+  border-top: 51px solid var(--color-black);
+}
+
+.btn_active-lightTheme {
+	background: var(--color-black);
+	color: var(--color-gold);
+}
+
+.video__play-lightTheme {
+	background-image: url('../images/lightTheme/icons/play.svg');
+}
+
+.card__title-lightTheme {
+	color: var(--color-black);
+}
+
+.card__price-lightTheme {
+	color: var(--color-black);
+}
+
+.priority__btn-lightTheme {
+	background: var(--color-gold);
+	color: var(--color-black);
+}
+
+.priority__btn-lightTheme:hover {
+	color: var(--color-white);
+}
+
+.contact-lightTheme {
+	background-image: url('../images/lightTheme/contacts.jpg');
+}
+
+.contact__title-lightTheme {
+	color: var(--color-black);
+}
+
+.contact__input-lightTheme,
+.contact__textarea-lightTheme {
+	color: var(--color-black);
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.contact__input-lightTheme::placeholder,
+.contact__textarea-lightTheme::placeholder {
+  color: var(--color-black);
+}
+
+.socials__link_inst-lightTheme {
+	background-image: url('../images/lightTheme/icons/inst.svg');
+}
+
+.socials__link_fb-lightTheme {
+	background-image: url('../images/lightTheme/icons/fb.svg');
+}
+
+.socials__link_tw-lightTheme {
+	background-image: url('../images/lightTheme/icons/tw.svg');
+}
+
+.socials__link_pin-lightTheme {
+	background-image: url('../images/lightTheme/icons/pint.svg');
+}
+
+
+
+
+
+

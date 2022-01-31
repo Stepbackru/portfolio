@@ -144,8 +144,7 @@ body {
 	gap: 8px;
 }
 
-.lang__ru,
-.lang__en {
+.lang__item {
 	padding: 0;
 	color: #fff;
 	font-family: Inter, sans-serif;
