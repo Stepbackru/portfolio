@@ -15,7 +15,9 @@ window.onload = () => {
   };
 
   const actualTheme = JSON.parse(localStorage.getItem('stepbackru')).theme;
+  const actualLang = JSON.parse(localStorage.getItem('stepbackru')).lang;
   actualTheme ? changeTheme.changeElemsTheme() : null;
+  actualLang ? translatePage.renderPageLanguage() : null;
 
   burgerMenu.subscribe();
   seasonsChange.subscribe();

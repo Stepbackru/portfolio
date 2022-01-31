@@ -10,7 +10,7 @@ class ChangeTheme {
   }
 
   themeToggle(e) {
-    this.setLocalStorageThemeInfo();
+    this.setLocalStorageInfo();
     const actualTheme = JSON.parse(localStorage.getItem('stepbackru')).theme;
     
     if (actualTheme) {
@@ -33,10 +33,11 @@ class ChangeTheme {
     });
   }
 
-  setLocalStorageThemeInfo() {
+  setLocalStorageInfo() {
+    const actualLang = JSON.parse(localStorage.getItem('stepbackru')).lang;
     const actualTheme = JSON.parse(localStorage.getItem('stepbackru')).theme;
     const data = JSON.stringify({
-      'lang': 'en',
+      'lang': actualLang === 'en' ? 'en' : 'ru',
       'theme': !actualTheme ? 'light' : null,
     })
     localStorage.setItem('stepbackru', data);
