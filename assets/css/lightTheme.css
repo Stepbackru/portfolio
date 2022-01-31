@@ -29,6 +29,10 @@
   color: var(--color-black);
 }
 
+.theme__item {
+	background-image: url('../images/lightTheme/icons/theme-icon.svg');
+}
+
 .hero-lightTheme {
   background-image: url('../images/lightTheme/bg.jpg')
 }
