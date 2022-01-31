@@ -18,8 +18,9 @@ class SeasonsChange {
   }
 
   activeFilterBtnToggle(e) {
-    this.filterBtns.forEach((el) => { el.classList.remove('btn_active') });
-    e.target.classList.add('btn_active');
+    const getTheme = JSON.parse(localStorage.getItem('stepbackru')).theme;
+    this.filterBtns.forEach((el) => { el.classList.remove(`${!getTheme ? 'btn_active' : 'btn_active-lightTheme'}`) });
+    e.target.classList.add(`${!getTheme ? 'btn_active' : 'btn_active-lightTheme'}`);
   }
 
   subscribe() {
