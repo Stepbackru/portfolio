@@ -29,6 +29,12 @@
   color: var(--color-black);
 }
 
+.menu__link-lightTheme:hover,
+.lang__item-lightTheme:hover,
+.lang__item_active-lightTheme {
+  color: var(--color-white);
+}
+
 .theme__item-lightTheme {
 	background-image: url('../images/lightTheme/icons/theme-icon.svg');
 }
@@ -61,6 +67,7 @@
 }
 
 .filter__btn-lightTheme {
+  background: transparent;
 	color: var(--color-black);
 }
 
