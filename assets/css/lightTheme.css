@@ -29,7 +29,7 @@
   color: var(--color-black);
 }
 
-.theme__item {
+.theme__item-lightTheme {
 	background-image: url('../images/lightTheme/icons/theme-icon.svg');
 }
 
@@ -136,9 +136,3 @@
 .socials__link_pin-lightTheme {
 	background-image: url('../images/lightTheme/icons/pint.svg');
 }
-
-
-
-
-
-
