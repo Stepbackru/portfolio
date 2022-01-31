@@ -42,6 +42,7 @@ body {
 
 .header__content {
 	display: flex;
+	align-items: center;
 	gap: 34px;
 	color: #fff;
 	font-size: var(--fz-general);
@@ -125,7 +126,7 @@ body {
 	transition: bottom .3s cubic-bezier(0.21, 0.83, 0.26, 0.87) ,transform .3s cubic-bezier(0.21, 0.83, 0.26, 0.87) .3s;
 }
 
-.burger__btn:hover .burger__line{
+.burger__btn:hover .burger__line {
 	background: var(--color-gold);
 }
 
@@ -156,6 +157,23 @@ body {
 .lang__item:hover,
 .lang__item_active {
 	color: var(--color-gold);
+}
+
+.theme__item {
+	padding: 0;
+	width: 40px;
+	height: 39px;
+	display: block;
+	background: transparent;
+	background-image: url('./assets/icons/theme-icon.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: .3s;
+}
+
+.theme__item:hover {
+	cursor: pointer;
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
 }
 
 .hero {
